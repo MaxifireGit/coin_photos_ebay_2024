@@ -1,0 +1,117 @@
+<style>
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0;
+    width: 100%;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-item::before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* 1:1 aspect ratio */
+}
+
+.grid-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item.grey-block::before {
+    background-color: grey;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+</style>
+
+<div class="grid-container">
+    <!-- Row 1 -->
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_1999_1.jpg" alt="Image 1">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2001_1.jpg" alt="Image 2">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2002_2.jpg" alt="Image 3">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2002_3.jpg" alt="Image 4">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2002_4.jpg" alt="Image 5">
+    </div>
+    <!-- Row 2 -->
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2003_1.jpg" alt="Image 6">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2004_1.jpg" alt="Image 7">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2005_1.jpg" alt="Image 8">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2005_2.jpg" alt="Image 9">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2006_1.jpg" alt="Image 10">
+    </div>
+    <!-- Row 3 -->
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2006_2.jpg" alt="Image 11">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2007_1.jpg" alt="Image 12">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2007_2.jpg" alt="Image 13">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2008_1.jpg" alt="Image 14">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2008_2.jpg" alt="Image 15">
+    </div>
+    <!-- Row 4 -->
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2009_1.jpg" alt="Image 16">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2009_2.jpg" alt="Image 17">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2010_1.jpg" alt="Image 18">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2011_1.jpg" alt="Image 19">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2012_1.jpg" alt="Image 20">
+    </div>
+    <!-- Row 5 -->
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2012_2.jpg" alt="Image 21">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2015_2.jpg" alt="Image 22">
+    </div>
+    <div class="grid-item">
+        <img src="https://raw.githubusercontent.com/MaxifireGit/coin_photos_ebay_2024/refs/heads/main/circ2/circ2_2016_5.jpg" alt="Image 23">
+    </div>
+    <div class="grid-item grey-block"></div>
+    <div class="grid-item grey-block"></div>
+</div>
